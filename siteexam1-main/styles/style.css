@@ -1,0 +1,405 @@
+
+
+.parent {
+	display: flex;
+}
+
+.mainname {
+	background-color: #01012B;
+	color: #FD8091;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: auto;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 60px;
+}
+
+.menu {
+	background-color: #005678;
+	width: 200px;
+	min-height: 800px;
+
+}
+.menu-fly{
+	position: fixed;
+	font-size: 30px;
+	font-weight: bolder;
+	padding: 15px 15px;
+}
+
+.content { 
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	background-image: url(../images/landing/77.jpg);
+}
+
+
+.first {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	background-image: url(../images/landing/555.jpg);
+}
+
+.second {
+	background-image: url(../images/landing/444.jpg);
+}
+
+.third {
+	background-image: url(../images/landing/333.jpg);
+}
+
+.fourth{
+	background-image: url(../images/landing/222.jpg);
+}
+
+.footer {
+	background-color: #01012B;
+	height: 70px;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	display: flex;
+	
+	
+}
+
+.name {
+	color: #08DEEA;
+}
+
+#name:hover {
+	color: #FD8091;
+}
+
+
+
+
+a {
+	text-decoration: none;
+	color: #FD8091;
+}
+
+a:hover {
+	color: #08DEEA;
+}
+
+.page{
+	display: none;
+}
+
+.page:target{
+	display: flex;
+	display: inline-block;
+	flex:1;
+	background-color: #C4FFFF;
+}
+
+.button {
+    background-color: #01012B; 
+    border: 4px solid #08DEEA;
+    padding: 15px 32px;
+    margin: 2px;
+    border-radius: 12px;
+    font-size: 19px;
+}
+
+.button:hover {
+	background-color:#FD8091;
+}
+
+.gallery .cyberpunk{
+	border: 10px #191970 solid;
+	margin: 10px;
+    border-radius: 30px;
+	max-width:300px;
+}
+
+.image-container img{
+	max-width: 300px;
+	max-height: 300px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.cyberpunk .name {
+	border: 0;
+	border-bottom: 10px #FD8091 solid;    
+    padding: 10px;
+    font-size: 40px;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	
+}
+
+
+
+
+.actions{
+	display: flex;
+	border: 0;
+	flex:1;
+	border-top: 10px #FD8091 solid;
+	justify-content: space-between;
+	padding: 0px;
+	
+}
+
+
+.cyberpunk .actions .button {
+	white-space: pre-line;
+    padding: 3px;
+    border: 4px solid #08DEEA;
+    display: inline-block;
+	flex: 1;
+	margin: 0;
+	border-radius: 0;
+	background-color: #005678;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+.cyberpunk .actions .button:hover{
+	background: #7e00ef;
+}
+.cyberpunk .actions .button:first-child{
+	border-bottom-left-radius: 20px;
+}
+.cyberpunk .actions .button:last-child{
+	border-bottom-right-radius: 20px;
+}
+
+
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cyberpunk:hover,
+.cyberpunk:hover .name,
+.cyberpunk:hover .actions{
+	border-color: #00FFFF;
+	border-style: double;
+	color: #7e00ef;
+}
+
+
+
+.one {
+	width:max-width: 100%; 
+	height:1000px;
+	background-image: url(../images/landing/one.jpg);
+}
+
+.two {
+	width:max-width: 100%; 
+	height:1000px;
+	background-image: url(../images/landing/two.jpg);
+	
+}
+
+.three {
+	width:max-width: 100%; 
+	height:1000px;
+	background-image: url(../images/landing/three.jpg);
+}
+
+.landing {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-color: #FF2A6D; 
+    color: #005678;
+	font-weight: bolder;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.landing.newclass{
+	justify-content: space-around;
+}
+
+.chain{
+	position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	margin-top: -20px;
+	color: #FD8091;
+	font-weight: bolder;
+}
+.chain-button {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-color: #FF2A6D; 
+    color: #005678;
+	font-weight: bolder;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topbutton {
+	width:100px;
+	border:2px solid;
+	text-align:center;
+	font-weight: bolder;
+	padding:10px;
+	position:fixed;
+	bottom:15px;
+	right:30px;
+	cursor:pointer;
+	font-size:16px;
+	border-radius: 5px;
+
+}
+
+.music {
+	padding:10px auto 0;
+	text-align: left;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: #08DEEA;
+	
+	
+}
+.music figcaption:hover {
+	color:#FD8091; 
+}
+
+
+.player {
+	border: 10px solid #08DEEA;
+	margin: 40px 380px ;
+	padding:20px;
+	text-align:center;
+	
+}
+.player:hover {
+	border: 10px solid #FD8091;
+	
+}
+.video {
+	padding:10px;
+}
+
+p {
+	font-weight: bolder;
+	font-size: 30px;
+	padding: 10px;
+	margin: 1%;
+	color: #005678;
+	text-align: left;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-indent: 40px;
+}
+
+.copyration {
+	font-weight: bolder;
+	font-size: 16px;
+	color: #005678;
+	text-align: left;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.copyration:hover {
+	color:#08DEEA;
+}
+
+
+.net {
+	display:flex;
+	align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postcard {
+   box-sizing: border-box;
+   max-width: 350px;
+   margin: 50px auto 0;
+   padding: 20px;
+   background: #FD8091;
+   border: 10px solid #01012B;
+   border-radius: 12px;
+   font-family: Geneva, Arial, Helvetica, sans-serif;
+   color: #005678;
+   font-weight: bolder;
+}
+.form-row {
+   margin-bottom: 15px;
+}
+.form-row input[type='text'], 
+.form-row input[type='email'], 
+.form-row textarea {
+	box-sizing: border-box;
+   width: 100%;
+   padding: 0 10px;
+   line-height: 35px;
+   border-width: 0;
+   background: #C4FFFF;
+   background-size: 8px 35px;
+   font-family: Geneva, Arial, Helvetica, sans-serif;
+   border-radius: 12px;
+   border: 4px solid #08DEEA;
+}
+.form-row textarea {
+   background-attachment: local;
+   background-repeat: repeat;
+   resize: none;
+}
+.form-row input[type='submit'] {
+   padding: 10px 20px;
+   margin-top: 10px;
+   background: #005678;
+   font-family: Geneva, Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: bolder;
+   color: #08DEEA;
+   cursor: pointer;
+   border-radius: 12px;
+   border: 4px solid #08DEEA;
+}
+
+.postcard:hover {
+	border: 10px solid #08DEEA;
+}
+	
+.form-row input[type='submit']:hover {
+	color: #01012B;
+	background-color: #FD8091;
+	border: 4px solid #01012B;
+}
+.form-row input[type='text']:hover,
+.form-row input[type='email']:hover,
+.form-row textarea:hover {
+	border: 4px solid #01012B; 
+}
+
